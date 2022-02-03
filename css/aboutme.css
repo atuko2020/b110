@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* About Me ========================== */
+#about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#about table {
+    border-collapse: collapse;
+    margin: auto;
+}
+#about th, td {
+    border: solid 2px #669;
+    font-size: 0.9rem;
+    padding: 2px;
+}
+#about th {
+    background-color: bisque;
+}
+#about #profile th {
+    text-align-last: justify;
+}

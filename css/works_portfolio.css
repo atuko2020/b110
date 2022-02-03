@@ -1,0 +1,42 @@
+@charset "UTF-8";
+#works {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#works a {
+    display: inline-block;/*ブロック要素にする*/
+	width:160px;/*ブロック要素にしたので幅や高さが指定出来る*/
+	opacity: 0;
+    height:160px;
+    padding-top: 50px;
+	box-sizing: border-box;
+}
+#works div a:hover {
+	opacity: 1;
+	font-size: 120%;
+	text-align: center;
+}
+#k9, #k10, #k20, #k21, #k22 {
+    margin: 20px;
+}
+#k9 {
+	background-image: url(../images/zu9.png);
+	background-size: cover;
+}
+#k10 {
+	background-image: url(../images/zu10.png);
+	background-size: cover;
+}
+#k20 {
+	background-image: url(../images/zu20.png);
+	background-size: cover;
+}
+#k21 {
+	background-image: url(../images/zu21.png);
+	background-size: cover;
+}
+#k22 {
+	background-image: url(../images/zu22.png);
+	background-size: cover;
+}

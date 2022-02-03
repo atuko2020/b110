@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background-image: url("../images/bg.png");
+}
+h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: cornflowerblue;
+    color: rgb(7, 16, 32);
+}
+h2{
+    font-family: "游ゴシック体", "Yu Gothic", sans-serif;
+    background-color: cornflowerblue;
+    color: rgb(7, 16, 32);
+}
+p{
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+    text-align: justify;
+    line-height: 1.7;
+    color: rgb(7, 16, 32);
+}
+

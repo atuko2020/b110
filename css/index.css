@@ -1,0 +1,94 @@
+@charset "UTF-8";
+body {
+    background-image: url("../images/background.jpg");
+    font-family: 'Ubuntu', sans-serif;
+    background-size: 1500px;
+    line-height: 1.7;
+}
+a {
+    text-decoration: none;
+}
+#home {
+    min-height: 100vh;
+}
+img {
+    max-width: 100%;
+}
+#home .page-title {
+    text-transform: none;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+h1.logo img {
+    width: 80px;
+    margin-top: 6px;
+    animation-name: myrotate;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    transform-origin: 100% 70%;
+}
+@keyframes myrotate {
+    0% {
+        transform: rotate(36deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+}
+.page-title {
+    font-size: 3em;
+    font-weight: normal;
+    animation-iteration-count: initial;
+    animation: reveal 2000ms ease-in-out forwards 200ms,
+               glow 3400ms linear infinite 2000ms;
+}
+@keyframes reveal {
+    80%{
+      letter-spacing: 8px;
+    }
+    100% {
+      background-size: 300% 300%;
+    }
+}
+@keyframes glow {
+    40% {
+      text-shadow: 0 0 8px rgb(5, 5, 63);
+    }
+}
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+}
+.main-nav li {
+    margin-left: 36px;
+}
+.main-nav a:hover {
+    color: rgb(0, 122, 221);
+}
+section {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 10%;
+}
+section p {
+    text-shadow: 1px 2px 3px rgb(5, 5, 63);
+    font-size: 1.125rem;
+    margin: 10px 0 42px;
+}
+section a{
+    background: rgb(5, 5, 63);
+    padding: 8px 16px;
+    color: white;
+}
+section a:hover {
+    opacity: 0.6;
+}

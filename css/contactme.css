@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* Contact Me ========================== */
+#contact form { margin: 0 1em 20px 2em; }
+#contact form input, #contact form textarea {
+    border: none;
+    border-bottom: solid 1px #AAA;
+}
+#contact #textarea {
+    position: relative;
+    margin-bottom: 3em;
+}
+#contact form textarea {
+    top: 20px;
+    left: 6.5em;
+    /* border: solid 1px black; */
+}
+#contact form div {
+    line-height: 2em;
+    padding: 10px;
+}
+#contact form .button {
+    border: solid #AAA;
+    border-radius: 5px;
+    width: 5em;
+    display: block;
+    margin: auto;
+    padding: 0 17px;
+    height: 2em;
+}
+/* フォームデータが妥当でない場合 20210212 */
+#contact form *:invalid {
+    border-color: red;
+}

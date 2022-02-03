@@ -1,0 +1,18 @@
+@charset "UTF-8";
+#works a {
+    display: inline-block;/*ブロック要素にする*/
+    width:200px;/*ブロック要素にしたので幅や高さが指定出来る*/
+    height:200px;
+    font-size:2em;
+    color: aqua;
+    padding-top: 50px;
+}
+#works {
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-template-columns:
+    
+    repeat(auto-fit, 100px);
+    justify-content: space-around;
+    /* グリッド全体を均等に配置 */
+    }

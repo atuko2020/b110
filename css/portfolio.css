@@ -1,0 +1,48 @@
+@charset "UTF-8";
+#works a {
+    display: inline-block;/*ブロック要素にする*/
+	width:200px;/*ブロック要素にしたので幅や高さが指定出来る*/
+	opacity: 0;
+    height:200px;
+    padding-top: 50px;
+	box-sizing: border-box;
+}
+#works div:hover {
+	border-radius: 30%;
+	opacity: 0.4;
+	transform: scale(1.3, 1.3);
+	transition: all 500ms 0s ease-in-out;
+}
+#works div a:hover {
+	opacity: 1;
+	font-size: 120%;
+	text-align: center;
+}
+#works {
+    display: grid;
+	grid-template-columns: repeat(auto-fit, 200px);
+	grid-auto-rows: 200px;
+	justify-content: space-around;
+	gap: 40px;
+}
+#k9 {
+	background-image: url(../images/zu9.png);
+	background-size: cover;
+}
+#k10 {
+	background-image: url(../images/zu10.png);
+	background-size: cover;
+}
+#k20 {
+	background-image: url(../images/zu20.png);
+	background-size: cover;
+}
+#k21 {
+	background-image: url(../images/zu21.png);
+	background-size: cover;
+}
+#k22 {
+	background-image: url(../images/zu22.png);
+	background-size: cover;
+}
+

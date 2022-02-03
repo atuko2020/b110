@@ -1,0 +1,102 @@
+@charset "UTF-8";
+#container{
+   text-align: center;
+   margin: auto;
+}
+section{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 2rem;
+    overflow: hidden;
+}
+section img{
+    width: 35%;
+    min-width: 200px;
+    box-sizing: border-box;
+}
+section p{
+    box-sizing: border-box;
+    text-align: justify;
+    min-width: 320px;
+    margin: 0 1rem;
+}
+main{
+    box-sizing: border-box;
+    background-color: rgb(174, 200, 250);
+    width: 80%;
+    min-width: 340px;
+    padding: 1rem 0rem;
+    margin: auto;
+}
+main section:nth-child(1) img{
+    padding-right: 1rem;
+}
+main section:nth-child(1) p{
+    float: left;
+    width: 55%;
+}
+main section:nth-child(3) p{
+    float: right;
+    width: 55%;
+}
+body{
+    background-image: url("../images/bg.png");
+    margin: 0px;
+}
+header{
+    text-align: center;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+ul{
+    list-style-position: inside;
+    list-style-image: url(../images/star.png);
+    line-height: 2;
+}
+h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: cornflowerblue;
+    color: rgb(7, 16, 32);
+    margin: 0px;
+    padding: 1rem 1rem 0rem;
+}
+h2{
+    font-family: "游ゴシック体", "Yu Gothic", sans-serif;
+    background-color: rgb(174, 200, 250);
+    color: rgb(7, 16, 32);
+    padding: 0.5rem 0.5rem 0rem;
+    border-left: groove 6px cornflowerblue;
+    border-bottom: groove 6px cornflowerblue;
+}
+p{
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif;
+    line-height: 1.7;
+    color: rgb(7, 16, 32);
+    padding: 0rem 1rem;
+}
+q{
+    font-size: 1.2rem;
+}
+footer{
+    background-color: cornflowerblue;
+    padding: 26px 0;
+    text-align: center;
+    color: rgb(73, 90, 121);
+
+}
+@media (max-width: 800px) { 
+    section p{
+        margin: 0rem;
+    }
+    main{
+        box-sizing: border-box;
+        width: 100%;
+    }
+    main section:nth-child(1) p,
+    main section:nth-child(3) p{
+        box-sizing: border-box;
+        width: 95%;
+        margin: auto;
+        float: none;
+    }
+}
