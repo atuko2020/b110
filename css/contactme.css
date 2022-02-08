@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* Contact Me ========================== */
-#contact form { margin: 0 1em 20px 2em; }
+#contact form { 
+    width: 80%;
+    margin: 0 1em 20px 2em;
+}
 #contact form input, #contact form textarea {
     border: none;
     border-bottom: solid 1px #AAA;

@@ -34,6 +34,10 @@ body {
 #wrapper {
     overflow: hidden;
 }
+#center {
+    margin: auto;
+    width: 80%;
+}
 
 /* ヘッダー ========================== */
 #gallery {
